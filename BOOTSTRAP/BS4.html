@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Material Cards</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            margin: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .links {
+            color: orange;
+        }
+        .card-body .d-flex {
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center">
+        <div class="row justify-content-center">
+            <!-- First Card with Image -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="img-responsive" src="https://unsplash.it/400/300" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MATERIAL CARDS</h5>
+                        <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                        <div class="d-flex">
+                            <a href="#" class="links">LINK</a>
+                            <a href="#" class="links">LINK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Other Cards without Image -->
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="img-responsive" src="https://unsplash.it/400/300" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MATERIAL CARDS</h5>
+                        <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                        <div class="d-flex">
+                            <a href="#" class="links">LINK</a>
+                            <a href="#" class="links">LINK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="img-responsive" src="https://unsplash.it/400/300" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MATERIAL CARDS</h5>
+                        <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                        <div class="d-flex">
+                            <a href="#" class="links">LINK</a>
+                            <a href="#" class="links">LINK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img class="img-responsive" src="https://unsplash.it/400/300" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">MATERIAL CARDS</h5>
+                        <p class="card-text">Cards for display in portfolio style material design by Google.</p>
+                        <div class="d-flex">
+                            <a href="#" class="links">LINK</a>
+                            <a href="#" class="links">LINK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
